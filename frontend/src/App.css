@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.exercise-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none; /* リストスタイルを削除 */
+  padding: 0; /* デフォルトのパディングを削除 */
+  margin: 0; /* デフォルトのマージンを削除 */
+}
+
+.exercise-item {
+  margin: 10px;
+}
+
+.exercise-block {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.exercise-checkbox {
+  margin-left: 10px; /* チェックボックスとテキストの間にスペースを追加 */
+}
